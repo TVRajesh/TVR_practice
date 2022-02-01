@@ -15,7 +15,7 @@ pipeline {
 
     stage('Deploy') {
       steps {
-        sh 'python info | grep -i version'
+        sh 'docker infor| grep -i version'
       }
     }
 
