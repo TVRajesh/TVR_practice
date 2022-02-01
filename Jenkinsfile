@@ -15,7 +15,7 @@ pipeline {
 
     stage('Deploy') {
       steps {
-        sh 'docker info| grep -i version'
+        sh 'java -version'
       }
     }
 
